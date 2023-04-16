@@ -6,13 +6,13 @@ if choice==2 | choice==0
 end
 ```
 Use mphopen to open the COMSOL dispersion model file (.mph). This model will be used to evaluate dispersions. Control parameters (Modulus, etc.) can be optimized with the MATLAB optimization file.
-```
+```matlab
 close all; clear all;
 global iter Target model freq
 mphopen
 ```
 Two-column array to input experimental/test dispersion data. The first column is the frequency (kHz). The second column is wave speed (m/s).
-```
+```matlab
 dat = [ 2,	7.651080172; 
         2.5,    7.518560174;  
         3,	7.8457104; 
@@ -21,7 +21,7 @@ dat = [ 2,	7.651080172;
         4.5,	8.663541523;	
         5,	8.540607346];
 ```
-###Main part of the optimization
+### Main part of the optimization
 This is the main part of the optimization step. Here we assume there is only one optimization variable, which is the storage Young's modulus (Es) of the plate.
 ```matlab
 tic
