@@ -6,10 +6,13 @@ if choice==2 | choice==0
 end
 ```
 Use mphopen to open the COMSOL dispersion model file (.mph). This model will be used to evaluate dispersions. Control parameters (Modulus, etc.) can be optimized with the MATLAB optimization file.
+```
 close all; clear all;
 global iter Target model freq
 mphopen
+```
 Two-column array to input experimental/test dispersion data. The first column is the frequency (kHz). The second column is wave speed (m/s).
+```
 dat = [ 2,	7.651080172; 
         2.5,    7.518560174;  
         3,	7.8457104; 
@@ -17,8 +20,10 @@ dat = [ 2,	7.651080172;
         4,	8.450217292; 
         4.5,	8.663541523;	
         5,	8.540607346];
-Main part of the optimization
+```
+###Main part of the optimization
 This is the main part of the optimization step. Here we assume there is only one optimization variable, which is the storage Young's modulus (Es) of the plate.
+```matlab
 tic
 for i=1:1:length(dat) % loop through the test data
     close all
@@ -54,7 +59,8 @@ for i=1:1:length(dat) % loop through the test data
     E_store = [E_store;E_temp];
 end
 toc
-ticandtoc one line 1 and line 35 at as a stopwatch to show the runtime of this main code. 
+```
+`tic`andtoc one line 1 and line 35 at as a stopwatch to show the runtime of this main code. 
 There are two loops here. The outer loop goes through all the test dispersion data dat, row by row. In each iteration, we will load a pair of frequency and wave speed into freq and c_e. They need to be converted to units of Hz and m/s. The target of the whole optimziation is to match model predicted wave speed to the experimental wave speed data, so we set the c_e as the target. Optimization is done within the nested loop from line 8 to line 32. The optimization will be run by N times (5 in the example) to evaluate statistics (average, deviation, etc.) of the optimization target (Es). For each run, you will have a optimized Es stored in E_temp array (1xN). N can be set to 1 if necessary. All optimized E will be stored in E_store, which is a MxN array. M is the length of the test data.
 for i=1:1:length(dat) %outer loop
     close all
