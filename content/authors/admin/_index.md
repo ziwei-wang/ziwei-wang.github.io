@@ -22,7 +22,7 @@ organizations:
     url: https://www.northwestern.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include soft biological material characterization with OCE (optical coherence elastography).
 
 # Interests to show in About widget
 interests:

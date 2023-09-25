@@ -3,7 +3,7 @@ title: Tunable Digital Metamaterial for Broadband Vibration Isolation at Low Fre
 date: '2016-11-01'
 publishDate: '2023-09-25T02:00:40.992222Z'
 authors:
-- Ziwei Wang
+- admin
 - Quan Zhang
 - Kai Zhang
 - Gengkai Hu
