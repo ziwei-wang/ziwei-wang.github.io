@@ -8,12 +8,20 @@ authors:
 - Kai Zhang
 - Gengkai Hu
 publication_types: ['2']
-abstract: ''
-featured: false
+abstract: 'A 3D-printed digital metamaterial embedded with electromagnets is fabricated. Switching electromagnets between the attaching (1 bit) and detaching (0 bit) modes activates different waveguides in the metamaterial. The underlying mechanism is investigated theoretically and experimentally. The hierarchical assemblies of unit cells, mimicking digital bits, allow programmable broadening of the bandgap of the metamaterial.'
+featured: true
 publication: '*Advanced Materials*'
 doi: 10.1002/adma.201604009
 links:
 - name: URL
   url: https://onlinelibrary.wiley.com/doi/10.1002/adma.201604009
+
+image:
+  caption: 'TOC Figure'
+  focal_point: "top"
+  preview_only: false
+
+projects:
+- []
 ---
 

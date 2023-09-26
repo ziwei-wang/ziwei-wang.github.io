@@ -35,7 +35,7 @@ sections:
         - title: PhD Researcher
           company: Northwestern University
           company_url: ''
-          company_logo: 
+          company_logo: Northwestern_University_seal
           location: Evanston, Illinois
           date_start: '2017-09-07'
           date_end: ''
@@ -43,13 +43,24 @@ sections:
         - title: Graduate Student Researcher
           company: Beijing Institute of Technology
           company_url: ''
-          company_logo: 
+          company_logo: BIT
           location: Beijing, China
           date_start: '2014-08-03'
           date_end: '2017-06-29'
           description: Digital elastic metamaterial design.
     design:
       columns: '2'
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
   - block: collection
     id: pub
     content:
