@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2023-09-26
 type: landing
 
 sections:
@@ -24,6 +24,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Hardware Engineering Intern
+          company: Apple Inc.
+          company_url: 'https://www.apple.com'
+          company_logo: Apple_logo_black
+          location: Cupertino, California
+          date_start: '2022-10-03'
+          date_end: '2023-07-29'
+          description: Support mechanical design of displays with FEA. Focusing on vibration related topics.
         - title: PhD Researcher
           company: Northwestern University
           company_url: ''
@@ -32,14 +40,14 @@ sections:
           date_start: '2017-09-07'
           date_end: ''
           description: Mechanical characterization of soft materials with optical coherence elastography.
-        - title: Hardware Engineering Intern
-          company: Apple Inc.
+        - title: Graduate Student Researcher
+          company: Beijing Institute of Technology
           company_url: ''
           company_logo: 
-          location: Cupertino, California
-          date_start: '2022-10-03'
-          date_end: '2023-07-29'
-          description: Support mechanical design of displays with FEA. Focusing on vibration related topics.
+          location: Beijing, China
+          date_start: '2014-08-03'
+          date_end: '2017-06-29'
+          description: Digital elastic metamaterial design.
     design:
       columns: '2'
   - block: collection
