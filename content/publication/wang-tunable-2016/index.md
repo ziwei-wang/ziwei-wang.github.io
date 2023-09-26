@@ -23,5 +23,7 @@ image:
 
 projects:
 - []
+
+slides: wang-tunable-2016
 ---
 
