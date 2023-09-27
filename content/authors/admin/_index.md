@@ -7,7 +7,7 @@ first_name: Ziwei
 last_name: Wang
 
 # Status emoji
-status:
+status: 
   icon: ☕️
 
 # Is this the primary user of the site?
@@ -22,7 +22,7 @@ organizations:
     url: https://www.northwestern.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include soft biological material characterization with OCE (optical coherence elastography).
+bio: PhD candidate developing viscoelastic mechanical characterization methods for soft materials. 
 
 # Interests to show in About widget
 interests:
@@ -57,9 +57,6 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -68,5 +65,5 @@ email: ''
 highlight_name: true
 ---
 
-I am a current PhD candidate in Mechanical Engineering at Northwestern University.
+I am a current PhD candidate in Mechanical Engineering at Northwestern University, advised by [Professor Balogun](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/balogun-oluwaseyi.html). I love video games and movies. 
 {style="text-align: justify;"}

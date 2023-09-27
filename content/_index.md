@@ -31,7 +31,7 @@ sections:
           location: Cupertino, California
           date_start: '2022-10-03'
           date_end: '2023-07-29'
-          description: Support mechanical design of displays with FEA. Focusing on vibration related topics.
+          description: Worked in Display FEA team to support mechanical designs of displays on MacBooks, iPads and other Apple products.
         - title: PhD Researcher
           company: Northwestern University
           company_url: ''
@@ -39,7 +39,7 @@ sections:
           location: Evanston, Illinois
           date_start: '2017-09-07'
           date_end: ''
-          description: Mechanical characterization of soft materials with optical coherence elastography.
+          description: Focusing on developing mechanical characterization methods based on optical coherence elastography (OCE) for soft materials.
         - title: Graduate Student Researcher
           company: Beijing Institute of Technology
           company_url: ''
@@ -47,7 +47,7 @@ sections:
           location: Beijing, China
           date_start: '2014-08-03'
           date_end: '2017-06-29'
-          description: Digital elastic metamaterial design.
+          description: Focusing on digital elastic metamaterial design for mechanical vibration control.
     design:
       columns: '2'
   - block: collection
